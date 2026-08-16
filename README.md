@@ -1,34 +1,29 @@
-# 仓库管理系统 (WMS)
+# WMS (Warehouse Management System)
 
-## 项目搭建
+## Project Setup
 
-### 前置条件
-
-- Node.js (v14)
-- Java (JDK 11)
+### Prerequisites
+- Node.js (v14+)
+- Java (JDK 11+)
 - Maven
 
-### 后端
+### Backend
+1. Navigate to `backend` directory.
+2. Run `mvn spring-boot:run`.
+3. The server will start on port 8080.
 
-1. 进入 `backend` 目录。
-2. 运行 `mvn spring-boot:run`。
-3. 服务器会在端口 8080 启动。
+### Frontend
+1. Navigate to `frontend` directory.
+2. Install dependencies: `npm install`.
+3. Run the development server: `npm run serve`.
+4. Open your browser at `http://localhost:8081` (or the port shown in the terminal).
 
-### 前端
+## Features
+- **Warehouse Management**: Inventory tracking, shelf management, inbound/outbound operations.
+- **Purchase Plans**: Create and manage purchase plans.
+- **Quality Control**: Approve or reject incoming flowers based on quality.
+- **Delivery**: Manage delivery tasks.
 
-1. 进入 `frontend` 目录。
-2. 安装依赖：`npm install`。
-3. 启动开发服务器：`npm run serve`。
-4. 在浏览器打开 `http://localhost:8081`（或终端显示的端口）。
-
-## 功能
-
-- **仓库管理**：库存跟踪、货架管理、入库/出库操作。
-- **采购计划**：创建和管理采购计划。
-- **质量控制**：根据质量批准或拒收入库鲜花。
-- **配送管理**：管理配送任务。
-
-## 技术栈
-
-- **前端**：Vue.js、Element UI、Axios。
-- **后端**：Spring Boot、MyBatis Plus、MySQL。
+## Tech Stack
+- **Frontend**: Vue.js, Element UI, Axios.
+- **Backend**: Spring Boot, MyBatis Plus, MySQL.
