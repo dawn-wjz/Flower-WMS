@@ -32,3 +32,6 @@
 
 - **前端**：Vue.js、Element UI、Axios。
 - **后端**：Spring Boot、MyBatis Plus、MySQL。
+
+
+## 基本系统运行必须功能已完成，某些功能有待优化~~~~~~~~
